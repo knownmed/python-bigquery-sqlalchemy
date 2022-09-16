@@ -26,7 +26,7 @@ from setuptools import setup
 
 # Package metadata.
 
-name = "sqlalchemy-bigquery"
+name = "knownmed.sqlalchemy-bigquery"
 description = "SQLAlchemy dialect for BigQuery"
 
 # Should be one of:
@@ -92,7 +92,6 @@ setup(
         # and
         # https://github.com/googleapis/python-bigquery-sqlalchemy/issues/385
         "sqlalchemy>=1.2.0,<=1.4.27",
-        "future",
     ],
     extras_require=extras,
     python_requires=">=3.7, <3.11",
